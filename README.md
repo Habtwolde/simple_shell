@@ -1,5 +1,5 @@
 # simple_shell
-0x16. C - Simple Shell - group project at Alx - shellscripting - c_programming
+**0x16. C - Simple Shell - group project at Alx - shellscripting - c_programming**
 
 **simple shell:_** project is building a simple command line prompt that takes the most basics of commands that are present in the bash shell and runs them. the program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
 
