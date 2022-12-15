@@ -11,17 +11,17 @@ The shell will work after being compiled using ** gcc -Wall -Werror -Wextra -ped
 * `README.md` : contains information about this project
 * `main.h` : Header file, contains all prototypes for funcitons used, as well as libriaries
 * `hsh.c`: Main file that uses most functions and executes them within this file
-* `_getenv.c` : Contains the code for `_printf`
-* `_getline.c`: File for getting prompt and user input
-* `which.c`: File containing the specific functions for conversion specifiers
+* `_getenv.c` : gets an environment variable
+* `_getline.c`: puts input from user into buffer line
+* `which.c`: searches directories in PATH variable for command
 * `builtin_execute.c`: Executing the builtins
-* `builtins.c`: File containing the two builtins
+* `builtins.c`: code contains 'for print'
 * `child.c`: File that forks and creates parent child processes
 * `free.c`: File with free malloc functions
-* `prompt.c`: File with actual prompt line $
+* `prompt.c`: File checks mode and prints prompt if in interactive mode
 * `tokenizer.c`: File that creates function to tokenize an array of strings
 * `utility_functions.c`: helper functions
-
+* `hsh.c`: contains the main loop f shell
 ## Launching the shell
 After compiling the code run this `./shell`
 
