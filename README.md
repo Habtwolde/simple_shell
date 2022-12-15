@@ -39,7 +39,7 @@ Commands separated by a `;` are executed sequentially.
 The operators `&&` and `||` have equal precedence, followed by `;`.
 
 
-### Builtin Commands
+## Builtin Commands
 
 #### cd
   * Usage: `cd [DIRECTORY]`
@@ -48,8 +48,6 @@ The operators `&&` and `||` have equal precedence, followed by `;`.
   * If the argument `-` is given, the command is interpreted as `cd $OLDPWD` and the pathname of the new working directory is printed to standad output.
   * If the argument, `--` is given, the command is interpreted as `cd $OLDPWD` but the pathname of the new working directory is not printed.
   * The environment variables `PWD` and `OLDPWD` are updated after a change of directory.
-
-
 
 #### exit
   * Usage: `exit [STATUS]`
