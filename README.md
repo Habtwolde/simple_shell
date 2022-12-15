@@ -66,7 +66,7 @@ The operators `&&` and `||` have equal precedence, followed by `;`.
   * Initializes a new environment variable, or modifies an existing one.
   * Upon failure, prints a message to `stderr`.
 
-#### unsetenv
+## unsetenv
   * Usage: `unsetenv [VARIABLE]`
   * Removes an environmental variable.
   * Upon failure, prints a message to `stderr`.
