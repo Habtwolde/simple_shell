@@ -43,7 +43,7 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strcmp - Function that compares two strings.
+ * _strcmp - Function that compares two strings
  * @s1: type str compared
  * @s2: type str compared
  * Return: Always 0.
