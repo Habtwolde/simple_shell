@@ -5,7 +5,7 @@
  *
  * @datash: data relevant (directory)
  * @msg: message to print
- * @error: output message
+ * @error: out put message
  * @ver_str: counter lines
  * Return: error message
  */
