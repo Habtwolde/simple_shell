@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * repeated_char - counts the repetitions of a char
+ * repeated_char - counts the repetitions of a char.
  *
  * @input: input string
  * @i: index
