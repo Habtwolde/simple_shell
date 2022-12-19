@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_len - Get the lenght of a number.
+ * get_len - Get the lenght of a number
  * @n: type int number.
  * Return: Lenght of a number.
  */
