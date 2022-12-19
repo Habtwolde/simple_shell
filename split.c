@@ -169,7 +169,7 @@ int split_commands(data_shell *datash, char *input)
 }
 
 /**
- * split_line - tokenizes the input string
+ * split_line - tokenizes the input string.
  *
  * @input: input string.
  * Return: string splitted.
