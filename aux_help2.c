@@ -20,7 +20,7 @@ void aux_help(void)
  */
 void aux_help_alias(void)
 {
-	char *help = "alias: alias [-p] [name[=value]...]\n";
+	char *help = "alias: alias [-p] [name[='value']...]\n";
 
 	write(STDOUT_FILENO, help, _strlen(help));
 	help = "\tDefine or display aliases.\n ";
